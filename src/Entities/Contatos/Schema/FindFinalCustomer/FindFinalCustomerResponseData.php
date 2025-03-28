@@ -1,12 +1,12 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
 
-use AleBatistella\BlingErpApi\Entities\Contatos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Shared\Enum\TipoPessoa;
-use AleBatistella\BlingErpApi\Entities\Contatos\Enum\IndicadorIe;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Contatos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\Enum\TipoPessoa;
+use Aireset\BlingErpApi\Entities\Contatos\Enum\IndicadorIe;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class FindFinalCustomerResponseData extends BaseResponseObject
 {

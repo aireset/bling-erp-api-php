@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations;
+namespace Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetModuleSituationsResponseData extends BaseResponseObject
 {

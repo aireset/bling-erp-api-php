@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasContabeis\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\ContasContabeis\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\ContasContabeis\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\ContasContabeis\Enum\Situacao;
 
 /**
  * Parâmetros da busca de contas contábeis paginadas.

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum;
 
 /**
  * Enumerador de tributação de uma natureza de operação.

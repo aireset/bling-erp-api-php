@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Estoques\Schema\Create;
+namespace Aireset\BlingErpApi\Entities\Estoques\Schema\Create;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 /**
  * Resposta da criação de um registro de estoque.

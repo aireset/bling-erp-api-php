@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Enum;
+namespace Aireset\BlingErpApi\Entities\Contatos\Enum;
 
 /**
  * Enumerador de critério de busca de contatos.

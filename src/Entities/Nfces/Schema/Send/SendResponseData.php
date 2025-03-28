@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\Send;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\Send;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class SendResponseData extends BaseResponseObject
 {

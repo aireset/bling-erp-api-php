@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\ContasContabeis;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\ContasContabeis;
 
-use AleBatistella\BlingErpApi\Entities\ContasContabeis\ContasContabeis;
-use AleBatistella\BlingErpApi\Entities\ContasContabeis\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ContasContabeis\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\ContasContabeis\ContasContabeis;
+use Aireset\BlingErpApi\Entities\ContasContabeis\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ContasContabeis\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

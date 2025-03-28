@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\OrdensDeProducao\Schema\GenerateOverDemand;
+namespace Aireset\BlingErpApi\Entities\OrdensDeProducao\Schema\GenerateOverDemand;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GenerateOverDemandResponseDataItens extends BaseResponseObject
 {

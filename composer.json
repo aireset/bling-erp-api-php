@@ -1,15 +1,15 @@
 {
-  "name": "alebatistella/bling-erp-api",
+  "name": "aireset/bling-erp-api",
   "description": "Pacote de integração com a API do Bling ERP",
   "type": "library",
   "version": "1.17.0",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "AleBatistella\\BlingErpApi\\": "./src/",
-      "AleBatistella\\BlingErpApi\\Entities\\Shared\\": "./src/Entities/@shared/",
-      "AleBatistella\\BlingErpApi\\Entities\\ContasPagar\\Schema\\Shared\\": "./src/Entities/ContasPagar/Schema/@shared/",
-      "AleBatistella\\BlingErpApi\\Entities\\ContasReceber\\Schema\\Shared\\": "./src/Entities/ContasReceber/Schema/@shared/"
+      "Aireset\\BlingErpApi\\": "./src/",
+      "Aireset\\BlingErpApi\\Entities\\Shared\\": "./src/Entities/@shared/",
+      "Aireset\\BlingErpApi\\Entities\\ContasPagar\\Schema\\Shared\\": "./src/Entities/ContasPagar/Schema/@shared/",
+      "Aireset\\BlingErpApi\\Entities\\ContasReceber\\Schema\\Shared\\": "./src/Entities/ContasReceber/Schema/@shared/"
     },
     "files": [
       "./src/Helpers/functions.php"

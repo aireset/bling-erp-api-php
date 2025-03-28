@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Vendedores;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Vendedores;
 
-use AleBatistella\BlingErpApi\Entities\Vendedores\Vendedores;
-use AleBatistella\BlingErpApi\Entities\Vendedores\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Vendedores\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Vendedores\Vendedores;
+use Aireset\BlingErpApi\Entities\Vendedores\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Vendedores\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

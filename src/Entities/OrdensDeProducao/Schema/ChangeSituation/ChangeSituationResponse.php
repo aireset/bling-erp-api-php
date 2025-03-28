@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\OrdensDeProducao\Schema\ChangeSituation;
+namespace Aireset\BlingErpApi\Entities\OrdensDeProducao\Schema\ChangeSituation;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * Resposta da alteração da situação de uma ordem de produção pelo ID.

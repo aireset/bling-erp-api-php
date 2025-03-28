@@ -1,16 +1,16 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Depositos;
+namespace Aireset\BlingErpApi\Entities\Depositos;
 
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com depósitos.

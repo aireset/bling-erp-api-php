@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\ProdutosEstruturas;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\ProdutosEstruturas;
 
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\ProdutosEstruturas;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\ProdutosEstruturas;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

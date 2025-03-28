@@ -1,17 +1,17 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes;
 
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations\GenerateCombinationsResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName\ChangeAttributeNameResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations\GenerateCombinationsResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName\ChangeAttributeNameResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Produtos - Variações.

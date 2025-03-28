@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Schema\Delete;
+namespace Aireset\BlingErpApi\Entities\Nfses\Schema\Delete;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * Resposta da exclusão de uma nota de serviço pelo ID.

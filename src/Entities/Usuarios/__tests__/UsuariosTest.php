@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Usuarios;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Usuarios;
 
-use AleBatistella\BlingErpApi\Entities\Usuarios\Usuarios;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword\RecoverPasswordResponse;
-use AleBatistella\BlingErpApi\Entities\Usuarios\Schema\ValidateHash\ValidateHashResponse;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Usuarios\Usuarios;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword\RecoverPasswordResponse;
+use Aireset\BlingErpApi\Entities\Usuarios\Schema\ValidateHash\ValidateHashResponse;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

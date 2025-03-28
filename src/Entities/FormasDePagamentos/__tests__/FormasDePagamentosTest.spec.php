@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\FormasDePagamentos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\FormasDePagamentos;
 
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\FormasDePagamentos;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\FormasDePagamentos;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

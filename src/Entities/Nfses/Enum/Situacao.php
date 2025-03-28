@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Enum;
+namespace Aireset\BlingErpApi\Entities\Nfses\Enum;
 
 /**
  * Enumerador de situação de uma NFS-e.

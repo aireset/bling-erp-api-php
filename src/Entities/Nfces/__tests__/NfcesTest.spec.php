@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Nfces;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Nfces;
 
-use AleBatistella\BlingErpApi\Entities\Nfces\Nfces;
-use AleBatistella\BlingErpApi\Entities\Nfces\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Nfces\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Nfces\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Nfces\Schema\Send\SendResponse;
-use AleBatistella\BlingErpApi\Entities\Nfces\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Nfces\Nfces;
+use Aireset\BlingErpApi\Entities\Nfces\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Nfces\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Nfces\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Nfces\Schema\Send\SendResponse;
+use Aireset\BlingErpApi\Entities\Nfces\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
 
-use AleBatistella\BlingErpApi\Entities\Shared\Enum\Genero;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\Enum\Genero;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindFinalCustomerResponseDataDadosAdicionais extends BaseResponseObject
 {

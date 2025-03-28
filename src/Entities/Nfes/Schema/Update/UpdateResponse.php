@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfes\Schema\Update;
+namespace Aireset\BlingErpApi\Entities\Nfes\Schema\Update;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * Resposta da alteração de uma nota fiscal.

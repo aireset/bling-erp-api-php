@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\ReverseStock;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\ReverseStock;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * Resposta do estorno do estoque de uma nota fiscal pelo ID.

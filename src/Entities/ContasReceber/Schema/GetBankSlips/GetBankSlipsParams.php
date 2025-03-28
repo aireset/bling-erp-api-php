@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Enum\BankSlipSituacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\ContasReceber\Enum\BankSlipSituacao;
 
 /**
  * Parâmetros da busca de boletos vinculados a um idOrigem, o qual corresponde ao ID de uma venda ou nota fiscal.

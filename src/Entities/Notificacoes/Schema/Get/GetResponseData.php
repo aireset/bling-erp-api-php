@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Notificacoes\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Nfces\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Nfces\Enum\Situacao;
 
 /**
  * Parâmetros da busca de notas fiscais de consumidor paginadas.

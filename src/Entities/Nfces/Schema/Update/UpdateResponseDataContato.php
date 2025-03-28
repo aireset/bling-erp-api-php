@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\Update;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\Update;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class UpdateResponseDataContato extends BaseResponseObject
 {

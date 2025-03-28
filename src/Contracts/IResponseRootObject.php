@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Contracts;
+namespace Aireset\BlingErpApi\Contracts;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * Interface para o objeto raiz de resposta.

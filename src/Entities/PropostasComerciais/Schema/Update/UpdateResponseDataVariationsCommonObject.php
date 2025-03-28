@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Update;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Update;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class UpdateResponseDataVariationsCommonObject extends BaseResponseObject
 {

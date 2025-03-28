@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Estoques\Enum;
+namespace Aireset\BlingErpApi\Entities\Estoques\Enum;
 
 /**
  * Enumerador de situação de um depósito.

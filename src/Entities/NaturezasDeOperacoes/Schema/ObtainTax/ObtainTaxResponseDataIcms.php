@@ -1,12 +1,12 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Tributacao;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\TipoPartilha;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\MotivoDesoneracaoICMS;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Tributacao;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\TipoPartilha;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\MotivoDesoneracaoICMS;
 
 readonly final class ObtainTaxResponseDataIcms extends BaseResponseObject
 {

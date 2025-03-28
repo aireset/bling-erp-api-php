@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Contatos\Enum\Criterio;
-use AleBatistella\BlingErpApi\Entities\Shared\Enum\UF;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Contatos\Enum\Criterio;
+use Aireset\BlingErpApi\Entities\Shared\Enum\UF;
 
 /**
  * Parâmetros da busca de contatos paginados.

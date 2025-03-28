@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Produtos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Produtos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\Criterio;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\TipoListagem;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\Criterio;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\TipoListagem;
 
 /**
  * Parâmetros da busca de produtos paginados.

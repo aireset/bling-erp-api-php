@@ -1,11 +1,11 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Nfces\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Nfces\Enum\Tipo;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Nfces\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Nfces\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

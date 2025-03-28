@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Enum\TipoIntegracao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Enum\TipoIntegracao;
 
 /**
  * Parâmetros da obtenção de serviços de logísticas paginados.

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Nfses\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Nfses\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Nfses\Enum\Situacao;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

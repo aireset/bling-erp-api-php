@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Nfes;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Nfes;
 
-use AleBatistella\BlingErpApi\Entities\Nfes\Nfes;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Send\SendResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Nfes\Nfes;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Send\SendResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

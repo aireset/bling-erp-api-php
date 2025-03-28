@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 /**
  * Resposta da alteração do nome do atributo nas variações de um produto pai.

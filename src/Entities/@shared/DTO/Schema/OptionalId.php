@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema;
+namespace Aireset\BlingErpApi\Entities\Shared\DTO\Schema;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 /**
  * Objeto com ID opcional.

@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Enum\TipoFiltroData;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\ContasReceber\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\ContasReceber\Enum\TipoFiltroData;
 
 /**
  * Parâmetros da busca de contas a receber paginadas.

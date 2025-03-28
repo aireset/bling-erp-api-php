@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseRootObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\OptionalId;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseRootObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\OptionalId;
 
 /**
  * Resposta da busca de uma proposta comercial pelo ID.

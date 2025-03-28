@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Shared;
+namespace Aireset\BlingErpApi\Entities\ContasPagar\Schema\Shared;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Exceptions\BlingParseResponsePayloadException;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Exceptions\BlingParseResponsePayloadException;
 
 readonly class ContasPagarOcorrenciaUnicaDTO extends BaseResponseObject
 {

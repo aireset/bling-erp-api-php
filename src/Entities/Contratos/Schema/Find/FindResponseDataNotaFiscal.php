@@ -1,11 +1,11 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contratos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Contratos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\NotaFiscalMes;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\NotaFiscalGerar;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\NotaFiscalDescontarImpostoRenda;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\NotaFiscalMes;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\NotaFiscalGerar;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\NotaFiscalDescontarImpostoRenda;
 
 readonly final class FindResponseDataNotaFiscal extends BaseResponseObject
 {

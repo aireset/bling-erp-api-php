@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Depositos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Depositos;
 
-use AleBatistella\BlingErpApi\Entities\Depositos\Depositos;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Depositos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Depositos\Depositos;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Depositos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasPagar\Enum;
+namespace Aireset\BlingErpApi\Entities\ContasPagar\Enum;
 
 /**
  * Enumerador de situação de uma conta a pagar.

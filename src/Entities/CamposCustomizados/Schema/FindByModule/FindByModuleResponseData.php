@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule;
+namespace Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule;
 
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindByModuleResponseData extends BaseResponseObject
 {

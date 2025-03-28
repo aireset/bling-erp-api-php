@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de pedidos de compras paginados.

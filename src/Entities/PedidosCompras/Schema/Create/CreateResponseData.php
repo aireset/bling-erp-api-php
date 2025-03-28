@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Create;
+namespace Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Create;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class CreateResponseData extends BaseResponseObject
 {

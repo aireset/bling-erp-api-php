@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Enum\TipoEstoque;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Enum\LancamentoEstoque;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Enum\TipoEstoque;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Enum\LancamentoEstoque;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

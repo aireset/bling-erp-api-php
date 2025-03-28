@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contratos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Contratos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

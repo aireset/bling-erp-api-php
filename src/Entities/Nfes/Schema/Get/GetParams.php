@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfes\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Nfes\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Nfes\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Nfes\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Nfes\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Nfes\Enum\Tipo;
 
 /**
  * Parâmetros da busca de notas fiscais paginadas.

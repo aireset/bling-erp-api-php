@@ -1,15 +1,15 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Estoques;
+namespace Aireset\BlingErpApi\Entities\Estoques;
 
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\FindBalance\FindBalanceResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\GetBalances\GetBalancesResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\FindBalance\FindBalanceResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\GetBalances\GetBalancesResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com estoques.

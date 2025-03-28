@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais\Enum;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais\Enum;
 
 /**
  * Enumerador de modalidade de frete do transporte de uma proposta comercial.

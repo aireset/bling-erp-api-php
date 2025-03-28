@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Borderos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Borderos;
 
-use AleBatistella\BlingErpApi\Entities\Borderos\Borderos;
-use AleBatistella\BlingErpApi\Entities\Borderos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Borderos\Borderos;
+use Aireset\BlingErpApi\Entities\Borderos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

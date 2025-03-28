@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\LogisticasRemessas;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\LogisticasRemessas;
 
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\LogisticasRemessas;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic\GetByLogisticResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\LogisticasRemessas;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic\GetByLogisticResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

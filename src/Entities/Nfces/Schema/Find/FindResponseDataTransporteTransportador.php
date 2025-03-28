@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfces\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Nfces\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindResponseDataTransporteTransportador extends BaseResponseObject
 {

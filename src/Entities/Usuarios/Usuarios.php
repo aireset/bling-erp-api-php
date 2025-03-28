@@ -1,14 +1,14 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Usuarios;
+namespace Aireset\BlingErpApi\Entities\Usuarios;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Usuarios\Schema\ChangePassword\ChangePasswordResponse;
-use AleBatistella\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword\RecoverPasswordResponse;
-use AleBatistella\BlingErpApi\Entities\Usuarios\Schema\ValidateHash\ValidateHashResponse;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Usuarios\Schema\ChangePassword\ChangePasswordResponse;
+use Aireset\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword\RecoverPasswordResponse;
+use Aireset\BlingErpApi\Entities\Usuarios\Schema\ValidateHash\ValidateHashResponse;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Usuários.

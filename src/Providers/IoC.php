@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Providers;
+namespace Aireset\BlingErpApi\Providers;
 
-use AleBatistella\BlingErpApi\Repositories\BlingRepository;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Repositories\BlingRepository;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 
 /**
  * Configura a injeção de dependência.

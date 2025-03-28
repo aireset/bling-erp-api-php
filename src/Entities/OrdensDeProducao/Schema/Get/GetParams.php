@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\OrdensDeProducao\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\OrdensDeProducao\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de ordens de produção paginadas..

@@ -1,12 +1,12 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Finalidade;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Padrao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Finalidade;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Padrao;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

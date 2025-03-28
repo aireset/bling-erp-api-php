@@ -1,16 +1,16 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasRemessas;
+namespace Aireset\BlingErpApi\Entities\LogisticasRemessas;
 
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic\GetByLogisticResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic\GetByLogisticResponse;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com logísticas - remessas.

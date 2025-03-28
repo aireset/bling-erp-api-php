@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Update;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Update;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\ErrorField;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\ErrorField;
 
 readonly final class UpdateResponseData extends BaseResponseObject
 {

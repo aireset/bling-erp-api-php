@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GenerateCombinationsResponseDataVariacoesVariacao extends BaseResponseObject
 {

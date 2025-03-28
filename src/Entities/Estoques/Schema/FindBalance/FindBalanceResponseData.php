@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Estoques\Schema\FindBalance;
+namespace Aireset\BlingErpApi\Entities\Estoques\Schema\FindBalance;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class FindBalanceResponseData extends BaseResponseObject
 {

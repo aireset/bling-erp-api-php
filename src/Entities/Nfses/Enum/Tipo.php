@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Enum;
+namespace Aireset\BlingErpApi\Entities\Nfses\Enum;
 
 /**
  * Enumerador de tipo de uma NFC-e.

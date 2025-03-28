@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Tipo;
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Enum\Situacao;
 
 /**
  * Parâmetros da busca de pedidos de vendas paginados.

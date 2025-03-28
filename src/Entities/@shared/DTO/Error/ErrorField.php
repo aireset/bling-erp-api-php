@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\DTO\Error;
+namespace Aireset\BlingErpApi\Entities\Shared\DTO\Error;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 /**
  * Objeto de erro para um campo da requisição.

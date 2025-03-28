@@ -1,17 +1,17 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos;
 
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com formas de pagamento.

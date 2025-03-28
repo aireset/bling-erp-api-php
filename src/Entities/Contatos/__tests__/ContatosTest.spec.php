@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Contatos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Contatos;
 
-use AleBatistella\BlingErpApi\Entities\Contatos\Contatos;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyParams;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer\FindFinalCustomerResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindTypes\FindTypesResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Contatos\Contatos;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyParams;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer\FindFinalCustomerResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\FindTypes\FindTypesResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

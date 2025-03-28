@@ -1,20 +1,20 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais;
 
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\ChangeSituationMany\ChangeSituationManyResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\ChangeSituationMany\ChangeSituationManyResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Propostas Comerciais.

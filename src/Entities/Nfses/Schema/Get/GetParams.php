@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Nfses\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Nfses\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Nfses\Enum\Situacao;
 
 /**
  * Parâmetros da busca de notas fiscais de serviço paginadas.

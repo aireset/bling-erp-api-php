@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\ContasPagar\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\ContasPagar\Enum\Situacao;
 
 /**
  * Parâmetros da busca de contas a pagar paginadas.

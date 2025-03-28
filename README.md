@@ -13,7 +13,7 @@ Atualizado com a versão `v310` da API ([veja o registro de alterações](https:
 Para instalar, execute o comando:
 
 ```bash
-composer require alebatistella/bling-erp-api
+composer require aireset/bling-erp-api
 ```
 
 ## Criação de uma nova conexão
@@ -21,7 +21,7 @@ composer require alebatistella/bling-erp-api
 Para criar uma conexão ao serviço do Bling, basta instanciar o objeto com a [API key](https://developer.bling.com.br/autenticacao) em seu construtor.
 
 ```php
-use AleBatistella\BlingErpApi\Bling;
+use Aireset\BlingErpApi\Bling;
 
 $apiKey = "sua_api_key";
 $blingConnection = new Bling($apiKey);
@@ -86,7 +86,7 @@ Todas as entidades do Bling atualmente são permitidas para interação. São el
 Para listar seus produtos, basta executar:
 
 ```php
-use AleBatistella\BlingErpApi\Bling;
+use Aireset\BlingErpApi\Bling;
 
 $apiKey = "sua_api_key";
 $blingConnection = new Bling($apiKey);

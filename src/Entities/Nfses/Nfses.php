@@ -1,20 +1,20 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses;
+namespace Aireset\BlingErpApi\Entities\Nfses;
 
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Cancel\CancelResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\GetConfigurations\GetConfigurationsResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\Send\SendResponse;
-use AleBatistella\BlingErpApi\Entities\Nfses\Schema\UpdateConfigurations\UpdateConfigurationsResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Cancel\CancelResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\GetConfigurations\GetConfigurationsResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\Send\SendResponse;
+use Aireset\BlingErpApi\Entities\Nfses\Schema\UpdateConfigurations\UpdateConfigurationsResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com NFS-es.

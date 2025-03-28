@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindFinalCustomerResponseDataEndereco extends BaseResponseObject
 {

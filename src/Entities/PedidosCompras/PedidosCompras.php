@@ -1,22 +1,22 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosCompras;
+namespace Aireset\BlingErpApi\Entities\PedidosCompras;
 
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\PostAccounts\PostAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\PostStock\PostStockResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\ReverseAccounts\ReverseAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\ReverseStock\ReverseStockResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\PostAccounts\PostAccountsResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\PostStock\PostStockResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\ReverseAccounts\ReverseAccountsResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\ReverseStock\ReverseStockResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Pedidos de Compras.

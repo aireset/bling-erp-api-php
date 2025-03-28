@@ -1,13 +1,13 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Padrao;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Destino;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Finalidade;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Padrao;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Destino;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Finalidade;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

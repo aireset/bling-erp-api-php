@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas\Enum;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas\Enum;
 
 /**
  * Enumerador de tipo de pessoa de um pedido de venda.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Shared\DTO\Error;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Shared\DTO\Error;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Body;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Body;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
 use PHPUnit\Framework\TestCase;
 
 /**

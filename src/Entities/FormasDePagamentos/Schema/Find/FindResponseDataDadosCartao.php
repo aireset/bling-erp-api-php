@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\DadosCartaoTipo;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\DadosCartaoBandeira;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\DadosCartaoTipo;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\DadosCartaoBandeira;
 
 readonly final class FindResponseDataDadosCartao extends BaseResponseObject
 {

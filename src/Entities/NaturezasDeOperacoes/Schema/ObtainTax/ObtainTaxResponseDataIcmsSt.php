@@ -1,11 +1,11 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Tributacao;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\ModalidadeBaseCalculoICMSST;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Tributacao;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\ModalidadeBaseCalculoICMSST;
 
 readonly final class ObtainTaxResponseDataIcmsSt extends BaseResponseObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Enum\DescontoUnidade;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Enum\DescontoUnidade;
 
 readonly final class FindResponseDataDesconto extends BaseResponseObject
 {

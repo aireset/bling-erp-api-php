@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Enum;
+namespace Aireset\BlingErpApi\Entities\ProdutosEstruturas\Enum;
 
 /**
  * Enumerador de lançamento de estoque de uma estrutura de produto.

@@ -1,23 +1,23 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfes;
+namespace Aireset\BlingErpApi\Entities\Nfes;
 
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\PostAccounts\PostAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\PostStock\PostStockResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\PostStockToDeposit\PostStockToDepositResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\ReverseAccounts\ReverseAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\ReverseStock\ReverseStockResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Send\SendResponse;
-use AleBatistella\BlingErpApi\Entities\Nfes\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\PostAccounts\PostAccountsResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\PostStock\PostStockResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\PostStockToDeposit\PostStockToDepositResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\ReverseAccounts\ReverseAccountsResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\ReverseStock\ReverseStockResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Send\SendResponse;
+use Aireset\BlingErpApi\Entities\Nfes\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com NF-es.

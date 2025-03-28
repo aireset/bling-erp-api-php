@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Produtos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Produtos;
 
-use AleBatistella\BlingErpApi\Entities\Produtos\Produtos;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\ChangeSituationMany\ChangeSituationManyResponse;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\Produtos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Produtos\Produtos;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\ChangeSituationMany\ChangeSituationManyResponse;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\Produtos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contratos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Contratos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\CobrancaVencimentoTipo;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\CobrancaVencimentoPeriodicidade;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\CobrancaVencimentoTipo;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\CobrancaVencimentoPeriodicidade;
 
 readonly final class FindResponseDataCobrancaVencimento extends BaseResponseObject
 {

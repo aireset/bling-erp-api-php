@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum;
 
 /**
  * Enumerador de tipo de dados de cartão de uma forma de pagamento.

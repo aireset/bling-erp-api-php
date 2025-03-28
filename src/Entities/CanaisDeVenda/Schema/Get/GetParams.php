@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Enum\Agrupador;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Enum\Agrupador;
 
 /**
  * Parâmetros da busca de canais de venda paginados.

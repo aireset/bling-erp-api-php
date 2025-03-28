@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule;
+namespace Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de campos customizados por módulo.

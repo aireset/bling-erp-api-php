@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\GruposDeProdutos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\GruposDeProdutos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de grupos de produtos paginados.

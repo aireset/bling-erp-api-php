@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity;
+namespace Aireset\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetQuantityResponseData extends BaseResponseObject
 {

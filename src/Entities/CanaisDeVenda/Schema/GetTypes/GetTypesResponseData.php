@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes;
+namespace Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Enum\Agrupador;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Enum\Agrupador;
 
 readonly final class GetTypesResponseData extends BaseResponseObject
 {

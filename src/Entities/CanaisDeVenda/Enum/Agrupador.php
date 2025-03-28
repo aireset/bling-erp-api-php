@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Enum;
+namespace Aireset\BlingErpApi\Entities\CanaisDeVenda\Enum;
 
 /**
  * Enumerador de agrupador de um canal de venda.

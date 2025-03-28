@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum;
+namespace Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum;
 
 /**
  * Enumerador de situações de categorias - receitas e despesas.

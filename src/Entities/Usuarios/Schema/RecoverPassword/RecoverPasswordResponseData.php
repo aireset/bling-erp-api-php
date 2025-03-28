@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword;
+namespace Aireset\BlingErpApi\Entities\Usuarios\Schema\RecoverPassword;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class RecoverPasswordResponseData extends BaseResponseObject
 {

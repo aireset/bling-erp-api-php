@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Create;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Create;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\ErrorField;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\ErrorField;
 
 readonly final class CreateResponseData extends BaseResponseObject
 {

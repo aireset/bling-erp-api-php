@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Estoques;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Estoques;
 
-use AleBatistella\BlingErpApi\Entities\Estoques\Estoques;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\FindBalance\FindBalanceResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\GetBalances\GetBalancesResponse;
-use AleBatistella\BlingErpApi\Entities\Estoques\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Estoques\Estoques;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\FindBalance\FindBalanceResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\GetBalances\GetBalancesResponse;
+use Aireset\BlingErpApi\Entities\Estoques\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\SituacoesModulos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\SituacoesModulos;
 
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\SituacoesModulos;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModules\GetModulesResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleActions\GetModuleActionsResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations\GetModuleSituationsResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleTransitions\GetModuleTransitionsResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\SituacoesModulos;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModules\GetModulesResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleActions\GetModuleActionsResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations\GetModuleSituationsResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleTransitions\GetModuleTransitionsResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosLojas\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\ProdutosLojas\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de produtos com lojas paginados.

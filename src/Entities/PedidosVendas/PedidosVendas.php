@@ -1,26 +1,26 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas;
 
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfce\GenerateNfceResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfe\GenerateNfeResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\PostAccounts\PostAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\PostStockToDeposit\PostStockToDepositResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\PostStock\PostStockResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\ReverseAccounts\ReverseAccountsResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\ReverseStock\ReverseStockResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfce\GenerateNfceResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfe\GenerateNfeResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\PostAccounts\PostAccountsResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\PostStockToDeposit\PostStockToDepositResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\PostStock\PostStockResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\ReverseAccounts\ReverseAccountsResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\ReverseStock\ReverseStockResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Pedidos de Vendas.

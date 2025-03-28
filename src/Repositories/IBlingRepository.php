@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Repositories;
+namespace Aireset\BlingErpApi\Repositories;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 interface IBlingRepository
 {

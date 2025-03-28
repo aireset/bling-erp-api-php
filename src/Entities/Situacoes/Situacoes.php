@@ -1,15 +1,15 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Situacoes;
+namespace Aireset\BlingErpApi\Entities\Situacoes;
 
-use AleBatistella\BlingErpApi\Entities\Situacoes\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Situacoes\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Situacoes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Situacoes\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Situacoes\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Situacoes\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Situacoes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Situacoes\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Situações.

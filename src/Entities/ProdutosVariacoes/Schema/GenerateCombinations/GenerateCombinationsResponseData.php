@@ -1,15 +1,15 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\Tipo;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\Formato;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\TipoProducao;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\Condicao;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\ActionEstoque;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\Formato;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\TipoProducao;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\Condicao;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\ActionEstoque;
 
 readonly final class GenerateCombinationsResponseData extends BaseResponseObject
 {

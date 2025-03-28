@@ -1,11 +1,11 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contratos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Contratos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Contratos\Enum\TipoManutencao;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Contratos\Enum\TipoManutencao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

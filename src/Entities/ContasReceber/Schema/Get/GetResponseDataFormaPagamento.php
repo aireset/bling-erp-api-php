@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Enum\CodigoFiscal;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\ContasReceber\Enum\CodigoFiscal;
 
 readonly final class GetResponseDataFormaPagamento extends BaseResponseObject
 {

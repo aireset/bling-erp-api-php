@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\CamposCustomizados;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\CamposCustomizados;
 
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\CamposCustomizados;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule\FindByModuleResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\GetModules\GetModulesResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\GetTypes\GetTypesResponse;
-use AleBatistella\BlingErpApi\Entities\CamposCustomizados\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\CamposCustomizados;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\FindByModule\FindByModuleResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\GetModules\GetModulesResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\GetTypes\GetTypesResponse;
+use Aireset\BlingErpApi\Entities\CamposCustomizados\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

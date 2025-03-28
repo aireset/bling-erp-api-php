@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Homologacao;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Homologacao;
 
-use AleBatistella\BlingErpApi\Entities\Homologacao\Homologacao;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Homologacao\Homologacao;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

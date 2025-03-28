@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Estoques\Schema\GetBalances;
+namespace Aireset\BlingErpApi\Entities\Estoques\Schema\GetBalances;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetBalancesResponseDataDepositos extends BaseResponseObject
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\Enum;
+namespace Aireset\BlingErpApi\Entities\Shared\Enum;
 
 /**
  * Enumerador de gênero (masculino ou feminino).

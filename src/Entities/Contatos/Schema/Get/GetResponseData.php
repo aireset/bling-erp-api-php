@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Contatos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Contatos\Enum\Situacao;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

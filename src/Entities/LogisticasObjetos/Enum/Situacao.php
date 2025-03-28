@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasObjetos\Enum;
+namespace Aireset\BlingErpApi\Entities\LogisticasObjetos\Enum;
 
 /**
  * Enumerador de situação de um objeto de logística.

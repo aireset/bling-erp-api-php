@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Empresas;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Empresas;
 
-use AleBatistella\BlingErpApi\Entities\Empresas\Empresas;
-use AleBatistella\BlingErpApi\Entities\Empresas\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Empresas\Empresas;
+use Aireset\BlingErpApi\Entities\Empresas\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

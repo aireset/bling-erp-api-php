@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\DTO\Request;
+namespace Aireset\BlingErpApi\Entities\Shared\DTO\Request;
 
 /**
  * Dados para envio de uma requisição.

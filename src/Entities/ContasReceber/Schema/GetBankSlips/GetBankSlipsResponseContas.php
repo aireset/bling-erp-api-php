@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Enum\BankSlipSituacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\ContasReceber\Enum\BankSlipSituacao;
 
 readonly final class GetBankSlipsResponseContas extends BaseResponseObject
 {

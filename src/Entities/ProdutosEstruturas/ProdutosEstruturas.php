@@ -1,17 +1,17 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosEstruturas;
+namespace Aireset\BlingErpApi\Entities\ProdutosEstruturas;
 
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\DeleteComponents\DeleteComponentsResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\ChangeComponent\ChangeComponentResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\AddComponent\AddComponentResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\DeleteComponents\DeleteComponentsResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\ChangeComponent\ChangeComponentResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\AddComponent\AddComponentResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Produtos - Estruturas.

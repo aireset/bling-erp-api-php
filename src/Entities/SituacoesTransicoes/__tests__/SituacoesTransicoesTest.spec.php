@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\SituacoesTransicoes;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\SituacoesTransicoes;
 
-use AleBatistella\BlingErpApi\Entities\SituacoesTransicoes\SituacoesTransicoes;
-use AleBatistella\BlingErpApi\Entities\SituacoesTransicoes\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesTransicoes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesTransicoes\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\SituacoesTransicoes\SituacoesTransicoes;
+use Aireset\BlingErpApi\Entities\SituacoesTransicoes\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\SituacoesTransicoes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\SituacoesTransicoes\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

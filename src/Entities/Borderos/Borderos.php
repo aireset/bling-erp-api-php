@@ -1,13 +1,13 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Borderos;
+namespace Aireset\BlingErpApi\Entities\Borderos;
 
-use AleBatistella\BlingErpApi\Entities\Borderos\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Borderos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Borderos\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Borderos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com borderôs.

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Enum\FretePorConta;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Enum\FretePorConta;
 
 readonly final class FindResponseDataTransporte extends BaseResponseObject
 {

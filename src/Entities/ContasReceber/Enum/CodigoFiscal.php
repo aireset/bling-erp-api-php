@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Enum;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Enum;
 
 /**
  * Enumerador de código fiscal da forma de pagamento de contas a receber.

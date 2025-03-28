@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Vendedores\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Vendedores\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Vendedores\Enum\SituacaoFiltro;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Vendedores\Enum\SituacaoFiltro;
 
 /**
  * Parâmetros da busca de vendedores paginados.

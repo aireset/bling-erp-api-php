@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\ProdutosVariacoes;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\ProdutosVariacoes;
 
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\ProdutosVariacoes;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations\GenerateCombinationsResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName\ChangeAttributeNameResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\ProdutosVariacoes;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations\GenerateCombinationsResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\ChangeAttributeName\ChangeAttributeNameResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasEtiquetas\Enum;
+namespace Aireset\BlingErpApi\Entities\LogisticasEtiquetas\Enum;
 
 /**
  * Enumerador de formato de uma etiqueta de logística.

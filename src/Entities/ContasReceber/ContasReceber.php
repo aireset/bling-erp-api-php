@@ -1,21 +1,21 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber;
+namespace Aireset\BlingErpApi\Entities\ContasReceber;
 
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\CancelBankSlips\CancelBankSlipsResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Download\DownloadResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips\GetBankSlipsResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips\GetBankSlipsParams;
-use AleBatistella\BlingErpApi\Entities\ContasReceber\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\CancelBankSlips\CancelBankSlipsResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Download\DownloadResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips\GetBankSlipsResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\GetBankSlips\GetBankSlipsParams;
+use Aireset\BlingErpApi\Entities\ContasReceber\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com contas a receber.

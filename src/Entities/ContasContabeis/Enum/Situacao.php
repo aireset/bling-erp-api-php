@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasContabeis\Enum;
+namespace Aireset\BlingErpApi\Entities\ContasContabeis\Enum;
 
 /**
  * Enumerador de situação de uma conta contábil.

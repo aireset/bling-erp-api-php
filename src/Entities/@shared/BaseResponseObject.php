@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared;
+namespace Aireset\BlingErpApi\Entities\Shared;
 
-use AleBatistella\BlingErpApi\Contracts\IResponseObject;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
-use AleBatistella\BlingErpApi\Exceptions\BlingParseResponsePayloadException;
+use Aireset\BlingErpApi\Contracts\IResponseObject;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Exceptions\BlingParseResponsePayloadException;
 
 /**
  * Classe base para objetos de retorno.

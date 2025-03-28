@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Shared\DTO\Request;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Shared\DTO\Request;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Body;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Body;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\TestStatus\Notice;
 use PHPUnit\Framework\TestStatus\Warning;
@@ -87,7 +87,7 @@ class ResponseOptionsTest extends TestCase
     $method = fake()->word();
     $this->expectException(BlingInternalException::class);
     $this->expectExceptionMessage(
-      "Could not parse property \"error\" of type \"AleBatistella\\BlingErpApi\\Entities\\Shared\\DTO\\Error\\Error\"."
+      "Could not parse property \"error\" of type \"Aireset\\BlingErpApi\\Entities\\Shared\\DTO\\Error\\Error\"."
     );
 
     new ResponseOptions(

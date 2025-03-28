@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\Enum;
+namespace Aireset\BlingErpApi\Entities\Shared\Enum;
 
 /**
  * Enumerador de tipo de pessoa (física, jurídica ou estrangeira).

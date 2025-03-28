@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasReceber\Enum;
+namespace Aireset\BlingErpApi\Entities\ContasReceber\Enum;
 
 /**
  * Enumerador de situação de uma conta a receber.

@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared\DTO\Request;
+namespace Aireset\BlingErpApi\Entities\Shared\DTO\Request;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Dados da resposta de uma requisição.

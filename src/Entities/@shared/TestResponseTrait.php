@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared;
+namespace Aireset\BlingErpApi\Entities\Shared;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Body;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Headers;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Body;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Headers;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\ResponseOptions;
 
 /**
  * _Trait_ para geração de resposta de requisição em testes.

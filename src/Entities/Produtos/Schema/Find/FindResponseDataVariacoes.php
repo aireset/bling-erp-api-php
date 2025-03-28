@@ -1,15 +1,15 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Produtos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Produtos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\Tipo;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\Formato;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\TipoProducao;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\Condicao;
-use AleBatistella\BlingErpApi\Entities\Produtos\Enum\ActionEstoque;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\Formato;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\TipoProducao;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\Condicao;
+use Aireset\BlingErpApi\Entities\Produtos\Enum\ActionEstoque;
 
 readonly final class FindResponseDataVariacoes extends BaseResponseObject
 {

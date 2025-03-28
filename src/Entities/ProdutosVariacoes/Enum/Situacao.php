@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum;
 
 /**
  * Enumerador de situação de um produto.

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Notificacoes\Enum;
+namespace Aireset\BlingErpApi\Entities\Notificacoes\Enum;
 
 /**
  * Enumerador de situação de um contrato.

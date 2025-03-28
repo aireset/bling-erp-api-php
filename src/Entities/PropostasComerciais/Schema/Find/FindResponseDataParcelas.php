@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\OptionalId;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\OptionalId;
 
 readonly final class FindResponseDataParcelas extends BaseResponseObject
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CategoriasProdutos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\CategoriasProdutos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da busca de categorias de lojas virtuais vinculadas a de produtos.

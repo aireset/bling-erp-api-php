@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasEtiquetas\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\LogisticasEtiquetas\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\LogisticasEtiquetas\Enum\Formato;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\LogisticasEtiquetas\Enum\Formato;
 
 /**
  * Parâmetros da obtenção das etiquetas dos pedidos de venda a partir dos ID's dos pedidos.

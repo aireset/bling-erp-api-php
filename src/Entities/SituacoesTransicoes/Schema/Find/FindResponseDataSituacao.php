@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\SituacoesTransicoes\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\SituacoesTransicoes\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindResponseDataSituacao extends BaseResponseObject
 {

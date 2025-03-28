@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasServicos\Enum;
+namespace Aireset\BlingErpApi\Entities\LogisticasServicos\Enum;
 
 /**
  * Enumerador de tipo de integração de um serviço de logística.

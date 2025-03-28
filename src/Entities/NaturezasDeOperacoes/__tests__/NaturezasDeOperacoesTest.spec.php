@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\NaturezasDeOperacoes;
 
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\NaturezasDeOperacoes;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax\ObtainTaxResponse;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\NaturezasDeOperacoes;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax\ObtainTaxResponse;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

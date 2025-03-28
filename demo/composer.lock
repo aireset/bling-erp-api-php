@@ -7,7 +7,7 @@
     "content-hash": "869ea86696b26c91d419662e45e6e95f",
     "packages": [
         {
-            "name": "alebatistella/bling-erp-api",
+            "name": "aireset/bling-erp-api",
             "version": "1.13.0",
             "source": {
                 "type": "git",
@@ -34,9 +34,9 @@
                     "./src/Helpers/functions.php"
                 ],
                 "psr-4": {
-                    "AleBatistella\\BlingErpApi\\": "./src/",
-                    "AleBatistella\\BlingErpApi\\Entities\\Shared\\": "./src/Entities/@shared/",
-                    "AleBatistella\\BlingErpApi\\Entities\\ContasReceber\\Schema\\Shared\\": "./src/Entities/ContasReceber/Schema/@shared/"
+                    "Aireset\\BlingErpApi\\": "./src/",
+                    "Aireset\\BlingErpApi\\Entities\\Shared\\": "./src/Entities/@shared/",
+                    "Aireset\\BlingErpApi\\Entities\\ContasReceber\\Schema\\Shared\\": "./src/Entities/ContasReceber/Schema/@shared/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -64,7 +64,7 @@
                     "type": "github"
                 },
                 {
-                    "url": "https://ko-fi.com/alebatistella",
+                    "url": "https://ko-fi.com/aireset",
                     "type": "ko_fi"
                 }
             ],

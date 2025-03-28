@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\DeleteMany;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\DeleteMany;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
 
 /**
  * Parâmetros da remoção de múltiplos contatos pelos IDs.

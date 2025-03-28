@@ -1,16 +1,16 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Homologacao;
+namespace Aireset\BlingErpApi\Entities\Homologacao;
 
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Homologacao\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Homologacao\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com homologação.

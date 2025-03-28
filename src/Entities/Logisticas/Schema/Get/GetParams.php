@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Logisticas\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\Logisticas\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\Logisticas\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Logisticas\Enum\TipoIntegracao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\Logisticas\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Logisticas\Enum\TipoIntegracao;
 
 /**
  * Parâmetros da busca de logísticas paginadas.

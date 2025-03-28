@@ -1,15 +1,15 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\SituacoesModulos;
+namespace Aireset\BlingErpApi\Entities\SituacoesModulos;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModules\GetModulesResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleActions\GetModuleActionsResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations\GetModuleSituationsResponse;
-use AleBatistella\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleTransitions\GetModuleTransitionsResponse;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModules\GetModulesResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleActions\GetModuleActionsResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleSituations\GetModuleSituationsResponse;
+use Aireset\BlingErpApi\Entities\SituacoesModulos\Schema\GetModuleTransitions\GetModuleTransitionsResponse;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com Situações - Módulos.

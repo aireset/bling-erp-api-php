@@ -1,14 +1,14 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\ContasPagar\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaUnicaDTO as Unica;
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaParceladaDTO as Parcelada;
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaDTO as Normal;
-use AleBatistella\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaSemanalDTO as Semanal;
+use Aireset\BlingErpApi\Entities\ContasPagar\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaUnicaDTO as Unica;
+use Aireset\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaParceladaDTO as Parcelada;
+use Aireset\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaDTO as Normal;
+use Aireset\BlingErpApi\Entities\ContasPagar\Schema\Shared\ContasPagarOcorrenciaSemanalDTO as Semanal;
 
 readonly final class FindResponseData extends BaseResponseObject
 {

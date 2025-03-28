@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\ContatosTipos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\ContatosTipos;
 
-use AleBatistella\BlingErpApi\Entities\ContatosTipos\ContatosTipos;
-use AleBatistella\BlingErpApi\Entities\ContatosTipos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\ContatosTipos\ContatosTipos;
+use Aireset\BlingErpApi\Entities\ContatosTipos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

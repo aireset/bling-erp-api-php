@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\CategoriasLojas;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\CategoriasLojas;
 
-use AleBatistella\BlingErpApi\Entities\CategoriasLojas\CategoriasLojas;
-use AleBatistella\BlingErpApi\Entities\CategoriasLojas\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\CategoriasLojas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\CategoriasLojas\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\CategoriasLojas\CategoriasLojas;
+use Aireset\BlingErpApi\Entities\CategoriasLojas\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\CategoriasLojas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\CategoriasLojas\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

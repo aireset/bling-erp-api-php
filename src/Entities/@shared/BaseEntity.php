@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Shared;
+namespace Aireset\BlingErpApi\Entities\Shared;
 
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 
 /**
  * Entidade base para o projeto.

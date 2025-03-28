@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\PedidosCompras;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\PedidosCompras;
 
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\PedidosCompras;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosCompras\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\PedidosCompras\PedidosCompras;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PedidosCompras\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

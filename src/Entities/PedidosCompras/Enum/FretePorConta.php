@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PedidosCompras\Enum;
+namespace Aireset\BlingErpApi\Entities\PedidosCompras\Enum;
 
 /**
  * Enumerador de frete por conta de um pedido de compra.

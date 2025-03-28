@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum;
 
 /**
  * Enumerador de modalidade de base de cálculo do ICMS ST de uma natureza de operação.

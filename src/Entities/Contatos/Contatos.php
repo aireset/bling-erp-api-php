@@ -1,23 +1,23 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos;
+namespace Aireset\BlingErpApi\Entities\Contatos;
 
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\ChangeSituationMany\ChangeSituationManyResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Delete\DeleteResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindTypes\FindTypesResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyParams;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer\FindFinalCustomerResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Contatos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\ChangeSituationMany\ChangeSituationManyResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Delete\DeleteResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\FindTypes\FindTypesResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\DeleteMany\DeleteManyParams;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\FindFinalCustomer\FindFinalCustomerResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Contatos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com contatos.

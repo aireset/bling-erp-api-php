@@ -1,16 +1,16 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Notificacoes;
+namespace Aireset\BlingErpApi\Entities\Notificacoes;
 
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Read\ReadResponse;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityResponse;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityParams;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\Read\ReadResponse;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityResponse;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityParams;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com notificações.

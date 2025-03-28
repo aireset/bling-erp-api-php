@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Vendedores\Enum;
+namespace Aireset\BlingErpApi\Entities\Vendedores\Enum;
 
 /**
  * Enumerador de situação para filtro de vendedores.

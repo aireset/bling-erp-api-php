@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete;
+namespace Aireset\BlingErpApi\Entities\ProdutosEstruturas\Schema\Delete;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\Error;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\Error;
 
 readonly final class DeleteResponseData extends BaseResponseObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic;
+namespace Aireset\BlingErpApi\Entities\LogisticasRemessas\Schema\GetByLogistic;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\LogisticasRemessas\Enum\Situacao;
 
 readonly final class GetByLogisticResponseData extends BaseResponseObject
 {

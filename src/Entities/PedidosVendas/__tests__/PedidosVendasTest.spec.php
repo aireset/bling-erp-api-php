@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\PedidosVendas;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\PedidosVendas;
 
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\PedidosVendas;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfe\GenerateNfeResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfce\GenerateNfceResponse;
-use AleBatistella\BlingErpApi\Entities\PedidosVendas\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\PedidosVendas\PedidosVendas;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfe\GenerateNfeResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\GenerateNfce\GenerateNfceResponse;
+use Aireset\BlingErpApi\Entities\PedidosVendas\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

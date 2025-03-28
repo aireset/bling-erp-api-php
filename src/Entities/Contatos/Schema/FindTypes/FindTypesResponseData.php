@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\FindTypes;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\FindTypes;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindTypesResponseData extends BaseResponseObject
 {

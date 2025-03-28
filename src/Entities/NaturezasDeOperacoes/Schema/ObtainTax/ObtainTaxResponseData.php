@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\ObtainTax;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class ObtainTaxResponseData extends BaseResponseObject
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany;
+namespace Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\Error;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\Error;
 
 readonly final class DeleteManyResponseDataAlertas extends BaseResponseObject
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Exceptions;
+namespace Aireset\BlingErpApi\Exceptions;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Error\ErrorResponse;
 
 /**
  * Exceção lançada quando há um erro na chamada API ao Bling.

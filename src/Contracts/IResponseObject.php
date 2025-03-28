@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Contracts;
+namespace Aireset\BlingErpApi\Contracts;
 
 /**
  * Objeto de resposta.

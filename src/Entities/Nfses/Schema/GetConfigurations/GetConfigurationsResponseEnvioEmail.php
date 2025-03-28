@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Nfses\Schema\GetConfigurations;
+namespace Aireset\BlingErpApi\Entities\Nfses\Schema\GetConfigurations;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetConfigurationsResponseEnvioEmail extends BaseResponseObject
 {

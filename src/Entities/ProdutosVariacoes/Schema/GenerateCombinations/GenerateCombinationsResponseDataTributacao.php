@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
+namespace Aireset\BlingErpApi\Entities\ProdutosVariacoes\Schema\GenerateCombinations;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
-use AleBatistella\BlingErpApi\Entities\ProdutosVariacoes\Enum\TipoArmamento;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Schema\Id;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\ProdutosVariacoes\Enum\TipoArmamento;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Schema\Id;
 
 readonly final class GenerateCombinationsResponseDataTributacao extends BaseResponseObject
 {

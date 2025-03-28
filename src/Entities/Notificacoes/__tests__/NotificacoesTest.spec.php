@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\Notificacoes;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\Notificacoes;
 
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Notificacoes;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityResponse;
-use AleBatistella\BlingErpApi\Entities\Notificacoes\Schema\Read\ReadResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\Notificacoes\Notificacoes;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\GetQuantity\GetQuantityResponse;
+use Aireset\BlingErpApi\Entities\Notificacoes\Schema\Read\ReadResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,16 +1,16 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CanaisDeVenda;
+namespace Aireset\BlingErpApi\Entities\CanaisDeVenda;
 
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes\GetTypesParams;
-use AleBatistella\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes\GetTypesResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes\GetTypesParams;
+use Aireset\BlingErpApi\Entities\CanaisDeVenda\Schema\GetTypes\GetTypesResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com canais de venda.

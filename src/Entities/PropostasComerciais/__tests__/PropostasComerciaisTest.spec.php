@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\PropostasComerciais;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\PropostasComerciais;
 
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\PropostasComerciais;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany\DeleteManyResponse;
-use AleBatistella\BlingErpApi\Entities\PropostasComerciais\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\PropostasComerciais;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\DeleteMany\DeleteManyResponse;
+use Aireset\BlingErpApi\Entities\PropostasComerciais\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

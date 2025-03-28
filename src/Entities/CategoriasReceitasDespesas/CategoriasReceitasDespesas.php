@@ -1,14 +1,14 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas;
+namespace Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas;
 
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get\GetParams;
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseEntity;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Exceptions\BlingApiException;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get\GetParams;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\Shared\BaseEntity;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Exceptions\BlingApiException;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 
 /**
  * Entidade para interação com categorias - receitas e despesas.

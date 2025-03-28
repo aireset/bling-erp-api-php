@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Produtos\Schema\ChangeSituationMany;
+namespace Aireset\BlingErpApi\Entities\Produtos\Schema\ChangeSituationMany;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class ChangeSituationManyResponseData extends BaseResponseObject
 {

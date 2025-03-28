@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\LogisticasRemessas\Enum;
+namespace Aireset\BlingErpApi\Entities\LogisticasRemessas\Enum;
 
 /**
  * Enumerador de situação de rastreamento de uma remessa de postagem.

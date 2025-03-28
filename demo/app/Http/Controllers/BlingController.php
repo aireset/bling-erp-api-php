@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use AleBatistella\BlingErpApi\Bling;
-use AleBatistella\BlingErpApi\Exceptions\BlingInternalException;
+use Aireset\BlingErpApi\Bling;
+use Aireset\BlingErpApi\Exceptions\BlingInternalException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;

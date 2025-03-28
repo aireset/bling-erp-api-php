@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Exceptions;
+namespace Aireset\BlingErpApi\Exceptions;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Body;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\Headers;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Body;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\Headers;
 
 /**
  * Exceção lançada quando há um erro interno na biblioteca.

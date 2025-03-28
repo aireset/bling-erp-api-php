@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Unit\AleBatistella\BlingErpApi\Entities\LogisticasServicos;
+namespace Tests\Unit\Aireset\BlingErpApi\Entities\LogisticasServicos;
 
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\LogisticasServicos;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\Create\CreateResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\Find\FindResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\Get\GetResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\Update\UpdateResponse;
-use AleBatistella\BlingErpApi\Entities\LogisticasServicos\Schema\ChangeSituation\ChangeSituationResponse;
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
-use AleBatistella\BlingErpApi\Entities\Shared\TestResponseTrait;
-use AleBatistella\BlingErpApi\Repositories\IBlingRepository;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\LogisticasServicos;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\Create\CreateResponse;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\Find\FindResponse;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\Get\GetResponse;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\Update\UpdateResponse;
+use Aireset\BlingErpApi\Entities\LogisticasServicos\Schema\ChangeSituation\ChangeSituationResponse;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\RequestOptions;
+use Aireset\BlingErpApi\Entities\Shared\TestResponseTrait;
+use Aireset\BlingErpApi\Repositories\IBlingRepository;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\NaturezasDeOperacoes\Enum\Situacao;
 
 /**
  * Parâmetros da obtenção de naturezas de operação paginadas.

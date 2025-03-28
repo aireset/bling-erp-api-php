@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CamposCustomizados\Enum;
+namespace Aireset\BlingErpApi\Entities\CamposCustomizados\Enum;
 
 /**
  * Enumerador de situações de campos customizados.

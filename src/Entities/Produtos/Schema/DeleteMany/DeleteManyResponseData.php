@@ -1,8 +1,8 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Produtos\Schema\DeleteMany;
+namespace Aireset\BlingErpApi\Entities\Produtos\Schema\DeleteMany;
 
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class DeleteManyResponseData extends BaseResponseObject
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contratos\Enum;
+namespace Aireset\BlingErpApi\Entities\Contratos\Enum;
 
 /**
  * Enumerador de descontar imposto de renda de nota fiscal.

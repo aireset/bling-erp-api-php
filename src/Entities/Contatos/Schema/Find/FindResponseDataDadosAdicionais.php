@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\Contatos\Schema\Find;
+namespace Aireset\BlingErpApi\Entities\Contatos\Schema\Find;
 
-use AleBatistella\BlingErpApi\Entities\Shared\Enum\Genero;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\Shared\Enum\Genero;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class FindResponseDataDadosAdicionais extends BaseResponseObject
 {

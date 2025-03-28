@@ -1,9 +1,9 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Tipo;
-use AleBatistella\BlingErpApi\Entities\Shared\BaseResponseObject;
+use Aireset\BlingErpApi\Entities\CategoriasReceitasDespesas\Enum\Tipo;
+use Aireset\BlingErpApi\Entities\Shared\BaseResponseObject;
 
 readonly final class GetResponseData extends BaseResponseObject
 {

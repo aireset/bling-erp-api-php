@@ -1,10 +1,10 @@
 <?php
 
-namespace AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Schema\Get;
+namespace Aireset\BlingErpApi\Entities\FormasDePagamentos\Schema\Get;
 
-use AleBatistella\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
-use AleBatistella\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
+use Aireset\BlingErpApi\Entities\Shared\DTO\Request\QueryParams;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\Situacao;
+use Aireset\BlingErpApi\Entities\FormasDePagamentos\Enum\TipoPagamento;
 
 /**
  * Parâmetros da busca de formas de pagamentos paginados.
